@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.title {
+    width: 100%;
+    height: 50px;
+}
+.title .logo{
+    width: 80px;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.title .search{
+    position: absolute;
+    display: inline-block;
+    margin-left:430px;
+    margin-top: 20px;
+    width: 600px;
+    overflow: hidden;
+
+}
+.title .search span {
+    color: #848585;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.title .search span::after{
+    content: "|";
+    color: #848585;
+    margin-left: 15px;
+}
+.title .search span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.content {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/background.png);
+    position: absolute;
+    background-position-x: -500px;
+}
+.content .box {
+    width: 700px;
+    height: 350px;
+    overflow: hidden;
+}
+.content .box img{
+    width: 680px;
+    height: 480px;
+    margin-left: 330px;
+    margin-top: 60px; 
+    float: left;
+    overflow: hidden;
+}
+.content .sign {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin-left: 700px;
+}
+.content .sign .signup {
+    width: 338.4px;
+    height: 371px;
+    background: #fff;
+    margin-top: -280px;
+    margin-left: 200px;
+}
+.content .sign .signup .choice {
+    width: 338.4px;
+    height: 40px;
+}
+.content .sign .signup .choice div{
+    display: inline-block;
+    height: 40px;
+    width: 156px;
+}
+.content .sign .signup .choice div {
+    border-bottom: 2px solid blue;
+}
+.content .sign .signup .choice div:hover {
+    cursor: pointer;
+}
+.content .sign .signup .choice .right-btn {
+    border: none;
+}
+.content .sign .signup input {
+    width: 243px;
+    height: 33px;
+    border: 1px solid #bac5d4;
+    color: #92a4bf;
+    background-color: #eef3f8;
+    line-height: 22px;
+    border-radius: 5px;
+    margin-top: 14px;
+    margin-left: 40px;
+}
+.content .sign .signup .change {
+    margin-top: 20px;
+}
+.content .sign .signup .change .cb {
+    border: 1px solid #3790CC;
+    background-color: #3B9BDC;
+    color: #ffffff;
+}
+.content .sign .signup .change .cb:hover {
+    cursor: pointer;
+}
+.content .sign .signup .dot {
+    font-size: 12px;
+    color: #92a4bf;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.content .sign .signup .choice {
+    display: inline-block;
+    border-bottom: 1px solid  #bac5d4;
+}
+.content .sign .signup .choice span {
+    color: #7e8185;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 48px;
+    margin-left: 36px;
+}
+.content .sign .signup .choice p {
+    width: 1px;
+    height: 24px;
+    background:#dddddd;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: -5px;
+
+}
+.content .sign .signup .qrchange {
+    margin-left: 65px;
+    margin-top: 60px;
+    display: none;
+}
+.content .sign .signup .click input {
+    width: 15px;
+    height: 15px;
+
+}
+.content .sign .signup .click span {
+    font-size: 13px;
+    color: #565551;
+    display: inline-block;
+}
+.content .sign .signup .click .right {
+    margin-left: 100px;
+    text-decoration: underline;
+    color:rgb(0, 0,238);
+
+}
+.content .sign .under {
+    background: #e7e6ea;
+    width: 338.4px;
+    height: 30px;
+    margin-left: 200px;
+}
+.bottom {
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 650px;
+}
+.bottom .first span {
+    font-weight: bold;
+    color: #444;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.bottom span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bottom .second {
+    margin-left: -340px;
+
+}
+.bottom .second span {
+    color: #999;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.bottom .third span {
+    font-size: 12px;
+    color: #999;
+    margin-left: -65px;
+}
+.bottom .third span:hover {
+    text-decoration: none;
+}
+.content .sign .signup .brand {
+    margin-top: 62px;
+    margin-left: 20px;
+}
+.content .sign .signup .brand .sc {
+    margin-left: 111px;
+}
+.content .sign .signup .brand img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
